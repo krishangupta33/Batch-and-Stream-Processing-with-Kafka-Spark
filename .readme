@@ -1,0 +1,35 @@
+# Event Stream Generation and Processing with Apache Kafka and Apache Spark
+
+This project involves generating an event stream in Kafka (Confluent) and processing it in Apache Spark (Databricks). Below are the steps required to set up the environment and execute the project.
+
+## Apache Kafka (Confluent)
+
+### Prerequisites
+
+- **Confluent Cloud Account**: Creation of an account for Confluent Cloud.
+
+### Steps
+
+1. **Create a Cluster**: Set up a new cluster in Confluent Cloud.
+2. **Create a Topic**: Establish a new topic for event streaming.
+3. **Create a Schema**: Define a schema for your Kafka topic to ensure data consistency.
+
+## Apache Spark (Databricks)
+
+### Prerequisites
+
+- **Databricks Community Edition Account**: Creation of an account for Databricks Community Edition.
+
+### Steps
+
+1. **Create a Cluster**: Set up a new cluster in Databricks Community Edition.
+2. **Install a Library for Confluent using PyPi**: Utilize the `pip` command to install a necessary library for integrating with Confluent Kafka.
+3. **Configure the Provided Code**: Update the provided Spark code with the appropriate configurations for connecting to your Kafka topic.
+4. **Create a New Avro Schema**: Define an Avro schema for the data you plan to process with Spark.
+5. **Produce Events to Your Topic**:
+   - **Batch**: Demonstrate batch processing of events.
+   - **Streaming**: Implement streaming processing of events.
+
+## Additional Resources
+
+For more information about Spark and Kafka, refer to the introduction PDFs available
